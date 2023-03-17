@@ -4,12 +4,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 @Component
-public class SistemaMensagem implements CommandLineRunner {
+public class SistemaMensagemExemploUM implements CommandLineRunner {
 
     //Pegando valores do 'application.properties' que esta dentro da pasta 'resource'
     //pra isso eu uso a anotação @Value
